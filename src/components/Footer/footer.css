@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	color: #000;
+	background-color: var(--cor-fundo);
+	position: relative;
+	align-items: center;
+	height: 10em;
+	margin-top: auto;
+	background-size: 100%;
+}
+
+.footer {
+	margin: 0 7em;
+	color: var(--cor-fundo);
+}
+
+footer {
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
