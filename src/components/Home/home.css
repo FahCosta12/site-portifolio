@@ -1,0 +1,50 @@
+.HomePage {
+	display: flex;
+	justify-content: space-evenly;
+	min-height: 80vh;
+	margin-top: 100px;
+	margin-bottom: -50px;
+	align-items: center;
+}
+.HomeText h1 {
+	font-weight: 600;
+	font-size: 38px;
+	letter-spacing: 0.7px;
+	padding-top: 10px;
+}
+
+.Avatar {
+	height: 350px;
+	width: 400px;
+	mix-blend-mode: screen;
+}
+
+@media (max-width: 900px) {
+	.HomePage {
+		display: block;
+		text-align: center;
+		margin-top: 150px;
+		padding: 25px;
+	}
+	.HomeText {
+		text-align: left;
+		display: inline-block;
+	}
+}
+
+@media (max-width: 500px) {
+	.HomePage {
+		min-height: 70vh;
+	}
+	.NavbarLinks {
+		inset: 0 0 0 30%;
+	}
+	.HomeText h1 {
+		font-weight: 500;
+		font-size: 28px;
+	}
+	.TypeEffect {
+		font-weight: 500;
+		font-size: 24px;
+	}
+}
