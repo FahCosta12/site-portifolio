@@ -13,6 +13,13 @@
 	padding-top: 10px;
 }
 
+.TypeEffect {
+	padding: 25px 0;
+	font-weight: 600;
+	font-size: 32px;
+	letter-spacing: 0.6px;
+}
+
 .Avatar {
 	height: 350px;
 	width: 400px;

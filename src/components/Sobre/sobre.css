@@ -1,0 +1,109 @@
+.Pagina-Sobre {
+	display: flex;
+	justify-content: space-evenly;
+	min-height: 80vh;
+	margin-top: 100px;
+	align-items: center;
+	padding: 25px;
+}
+
+.Texto-Sobre {
+	width: 50%;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 1.2px;
+}
+
+.Texto-Sobre a {
+	color: var(--color);
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.Titulo-Sobre {
+	font-size: 35px;
+	font-weight: 600;
+	padding-bottom: 40px;
+}
+
+@media (max-width: 900px) {
+	.Pagina-Sobre {
+		display: block;
+		text-align: center;
+		padding: 30px;
+	}
+
+	.Texto-Sobre {
+		text-align: left;
+		display: inline-block;
+		width: 95%;
+		line-height: 24px;
+		letter-spacing: 0.6px;
+		margin-bottom: 80px;
+	}
+
+	.Titulo-Sobre {
+		font-size: 26px;
+	}
+}
+
+.Avatar {
+	width: 200px;
+	margin-bottom: 75px;
+}
+
+/* Skills section */
+.skills {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 50px 10%;
+}
+
+.SkillsBox {
+	width: max(15%, 150px);
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 25px 25px 0;
+	border: 3px solid var(--color);
+	font-size: 64px;
+	border-radius: 5px;
+	transition: 0.5s;
+}
+
+.SkillsBox:hover {
+	transform: scale(1.2);
+	background-color: var(--color);
+	border: none;
+}
+
+.Titulo-Skills {
+	text-align: center;
+	margin: 50px 10px;
+	font-size: 60px;
+	letter-spacing: 0.6px;
+}
+
+@media (max-width: 500px) {
+	.Texto-Sobre {
+		font-size: 16px;
+	}
+
+	.Avatar {
+		width: 200px;
+		margin-bottom: 25px;
+	}
+
+	.Titulo-Skills {
+		font-size: 26px;
+	}
+
+	.SkillsBox {
+		width: 100px;
+		height: 100px;
+		font-size: 50px;
+	}
+}

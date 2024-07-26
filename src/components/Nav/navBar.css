@@ -1,0 +1,136 @@
+.Navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+	height: 70px;
+	top: 0;
+	transition: all 0.7s;
+}
+
+.blur {
+	background-color: #01111a8d;
+	backdrop-filter: blur(15px);
+	-webkit-backdrop-filter: blur(20px);
+}
+
+.Logo {
+	font-size: 32px;
+	letter-spacing: 2px;
+	padding-left: 7%;
+	color: var(--color);
+	display: flex;
+	align-items: center;
+	text-align: center;
+	cursor: pointer;
+}
+
+.NavbarLinks {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 7%;
+	font-weight: 500;
+	font-size: 22px;
+}
+
+.NavbarLinks li {
+	padding: 2px 20px;
+	list-style-type: none;
+}
+
+.NavbarLinks a {
+	color: #c2c1c2;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	width: 95%;
+	padding: 2px 7px;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+}
+
+.NavbarLinks a:hover {
+	color: #ffffff;
+}
+
+.NavbarLinks a::after {
+	background-color: #ffffff;
+	content: "";
+	position: absolute;
+	height: 3px;
+	left: 5px;
+	bottom: 0;
+	width: 0;
+	border-radius: 2px;
+	transition: 0.3s;
+}
+
+.NavbarLinks a:hover::after {
+	width: 95%;
+}
+
+.Hamburger {
+	display: none;
+}
+
+@media (max-width: 800px) {
+	.Navbar {
+		width: 100%;
+	}
+
+	.NavbarLinks {
+		font-size: 26px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		position: fixed;
+		inset: 0 0 0 50%;
+		gap: 50px;
+		background-color: #0c2f69;
+		height: 100vh;
+		padding-top: max(20%, 120px);
+		transform: translateX(100%);
+		transition: 0.5s;
+	}
+
+	.showNavbar {
+		transform: translateX(0);
+	}
+
+	.Hamburger {
+		display: block;
+		z-index: 2;
+		padding: 5px;
+		padding-right: 7%;
+		cursor: pointer;
+	}
+
+	.bar {
+		display: block;
+		background-color: #e7e7e7;
+		border-radius: 50px;
+		height: 2.5px;
+		width: 30px;
+		margin: 6px;
+		transition: 0.5s;
+	}
+	.barOne {
+		rotate: -225deg;
+		position: relative;
+		top: 4px;
+		transition: 0.5s;
+	}
+	.barTwo {
+		display: none;
+	}
+	.barThree {
+		position: relative;
+		bottom: 4px;
+		rotate: 225deg;
+		transition: 0.5s;
+	}
+}

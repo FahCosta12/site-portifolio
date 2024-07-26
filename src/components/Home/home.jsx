@@ -3,7 +3,7 @@ import { BsPerson } from "react-icons/bs";
 import { CgPhone } from "react-icons/cg";
 import Tilt from "react-parallax-tilt";
 import { Link } from "react-router-dom";
-import Type from "../Type/type";
+import Type from "./type";
 
 const Home = () => {
     return (
