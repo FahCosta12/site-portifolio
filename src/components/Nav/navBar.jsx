@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { AiOutlineHome } from "react-icons/ai";
 import { BsCodeSlash, BsPerson } from "react-icons/bs";
 import { CgPhone } from "react-icons/cg";
+import { Link } from "react-router-dom";
 import './navBar.css';
 
 const Nav = () => {
@@ -49,24 +50,24 @@ const Nav = () => {
 
             <ul className="NavBarLinks">
                 <li onClick={hideMenu}>
-                    <link to='/'>
+                    <Link to='/'>
                         <AiOutlineHome /> Home
-                    </link>
+                    </Link>
                 </li>
                 <li onClick={hideMenu}>
-                    <link to='/Sobre Mim'>
+                    <Link to='/Sobre Mim'>
                         <BsPerson /> Sobre Mim
-                    </link>
+                    </Link>
                 </li>
                 <li onClick={hideMenu}>
-                    <link to='/Projetos'>
+                    <Link to='/Projetos'>
                         <BsCodeSlash /> Projetos
-                    </link>
+                    </Link>
                 </li>
                 <li onClick={hideMenu}>
-                    <link to='/Contato'>
+                    <Link to='/Contato'>
                         <CgPhone /> Contato
-                    </link>
+                    </Link>
                 </li>
             </ul>
         </nav>
