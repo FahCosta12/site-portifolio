@@ -41,8 +41,6 @@ function App() {
 							<Routes location={location}>
 								<Route path="/" element={<Home />} />
 								<Route path="/Sobre" element={<Sobre />} />
-								<Route />
-								<Route />
 							</Routes>
 						</CSSTransition>
 					</TransitionGroup>
