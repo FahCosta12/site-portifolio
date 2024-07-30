@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithub, FaInstagram } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
+import "./footer.css";
 
 const Footer = () => {
     const data = new Date();
@@ -8,7 +9,7 @@ const Footer = () => {
     return (
         <footer>
             <h4>Copyright &copy; {ano} | Todos os Direitos Reservados.</h4>
-            <div>
+            <div className="footerLinks">
                 <a href="https://github.com/FahCosta12" target="_blank" rel="noreferrer">
                     <FaGithub />
                 </a>

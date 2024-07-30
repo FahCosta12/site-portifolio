@@ -5,15 +5,15 @@ import "./home.css";
 const Type = () => {
     return (
         <div className="TypeEffect">
-            <Typewriter>
+            <Typewriter
                 options={{
-                    string: ["Web Developer", "Web Designer", "ReactJs"],
+                    strings: ["Web Developer", "Web Designer", "ReactJs Specialist"],
                     autoStart: true,
                     loop: true,
                     delay: 70,
                     deleteSpeed: 20,
                 }}
-            </Typewriter>
+            />
         </div>
     );
 };

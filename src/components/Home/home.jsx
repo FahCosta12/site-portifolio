@@ -15,7 +15,7 @@ const Home = () => {
                     <Type />
                     <Link to='/Sobre'>
                         <button>
-                            Sobre Mim
+                            Sobre
                             <BsPerson />
                         </button>
                     </Link>
