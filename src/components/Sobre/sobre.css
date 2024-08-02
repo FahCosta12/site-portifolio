@@ -61,7 +61,7 @@
 	margin: 50px 10%;
 }
 
-.SkillsBox {
+.SkillBox {
 	width: max(15%, 150px);
 	height: 150px;
 	display: flex;

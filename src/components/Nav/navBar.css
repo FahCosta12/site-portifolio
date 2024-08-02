@@ -124,9 +124,11 @@
 		top: 4px;
 		transition: 0.5s;
 	}
+
 	.barTwo {
 		display: none;
 	}
+
 	.barThree {
 		position: relative;
 		bottom: 4px;

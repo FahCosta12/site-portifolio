@@ -33,15 +33,15 @@ const Sobre = () => {
 
             <h1 className="Titulo-Skills">Skillset</h1>
             <div className="skills">
-                <Skills skills="HTML"/>
-                <Skills skills="CSS"/>
-                <Skills skills="Javascript"/>
-                <Skills skills="React"/>
-                <Skills skills="NodeJs"/>
-                <Skills skills="Bootstrap"/>
-                <Skills skills="Git"/>
-                <Skills skills="Github"/>
-                <Skills skills="Npm"/>
+                <Skills skill="HTML"/>
+                <Skills skill="CSS"/>
+                <Skills skill="Javascript"/>
+                <Skills skill="React"/>
+                <Skills skill="Nodejs"/>
+                <Skills skill="Bootstrap"/>
+                <Skills skill="Git"/>
+                <Skills skill="Github"/>
+                <Skills skill="Npm"/>
             </div>
         </>
     );

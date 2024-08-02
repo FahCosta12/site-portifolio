@@ -11,8 +11,12 @@ const Home = () => {
             <div className="HomePage">
                 <div className="HomeText">
                     <h1>Olá!</h1>
-                    <h1>Eu sou o <b>Fabrício Costa</b></h1>
+                    <h1>
+                        Eu sou o <b>Fabrício Costa</b>
+                    </h1>
+
                     <Type />
+                    
                     <Link to='/Sobre'>
                         <button>
                             Sobre
