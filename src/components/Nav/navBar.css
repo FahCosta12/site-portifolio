@@ -17,47 +17,53 @@
 }
 
 .Logo {
-	font-size: 32px;
-	letter-spacing: 2px;
-	padding-left: 7%;
-	color: var(--color);
-	display: flex;
-	align-items: center;
-	text-align: center;
+	padding-left: 3%;
 	cursor: pointer;
 }
 
-.NavbarLinks {
+.Logo h1 {
+	display: flex;
+	font-size: 26px;
+	color: var(--color);
+	align-items: center;
+	text-align: center;
+}
+
+.NavBarLinks {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding-right: 7%;
 	font-weight: 500;
 	font-size: 22px;
-}
-
-.NavbarLinks li {
-	padding: 2px 20px;
 	list-style-type: none;
 }
 
-.NavbarLinks a {
-	color: #c2c1c2;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	position: relative;
-	width: 95%;
-	padding: 2px 7px;
-	letter-spacing: 0.5px;
-	text-decoration: none;
+.NavBarLinks li {
+	padding: 2px 20px;
+	color: #fff;
 }
 
-.NavbarLinks a:hover {
+.NavBarLinks li a {
+	position: relative;
+	display: flex;
+	color: #eee;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2px 7px;
+	width: 95%;
+	letter-spacing: 0.5px;
+}
+
+.NavBarLinks li a svg {
+	margin-right: 6px;
+}
+
+.NavBarLinks li a:hover {
 	color: #ffffff;
 }
 
-.NavbarLinks a::after {
+.NavBarLinks a::after {
 	background-color: #ffffff;
 	content: "";
 	position: absolute;
@@ -69,7 +75,7 @@
 	transition: 0.3s;
 }
 
-.NavbarLinks a:hover::after {
+.NavBarLinks a:hover::after {
 	width: 95%;
 }
 
@@ -82,7 +88,7 @@
 		width: 100%;
 	}
 
-	.NavbarLinks {
+	.NavBarLinks {
 		font-size: 26px;
 		display: flex;
 		flex-direction: column;
@@ -94,10 +100,10 @@
 		height: 100vh;
 		padding-top: max(20%, 120px);
 		transform: translateX(100%);
-		transition: 0.5s;
+		transition: transform 0.5s ease;
 	}
 
-	.showNavbar {
+	.NavBarLinks.showNavbar {
 		transform: translateX(0);
 	}
 
@@ -116,8 +122,9 @@
 		height: 2.5px;
 		width: 30px;
 		margin: 6px;
-		transition: 0.5s;
+		transition: background-color 0.5s ease, transform 0.5s ease;
 	}
+
 	.barOne {
 		rotate: -225deg;
 		position: relative;

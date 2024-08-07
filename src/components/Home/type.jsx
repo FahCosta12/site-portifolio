@@ -4,7 +4,7 @@ import "./home.css";
 
 const Type = () => {
     return (
-        <div className="TypeEffect">
+        <section className="TypeEffect">
             <Typewriter
                 options={{
                     strings: ["Web Developer", "Web Designer", "ReactJs Specialist"],
@@ -14,7 +14,7 @@ const Type = () => {
                     deleteSpeed: 20,
                 }}
             />
-        </div>
+        </section>
     );
 };
 

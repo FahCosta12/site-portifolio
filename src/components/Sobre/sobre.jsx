@@ -6,7 +6,7 @@ import "./sobre.css";
 const Sobre = () => {
     return (
         <>
-            <div className="Pagina-Sobre">
+            <section className="Pagina-Sobre">
                 <section className="Texto-Sobre">
                     <h1 className="Titulo-Sobre">
                         Me <b>Conheça!</b>
@@ -29,10 +29,10 @@ const Sobre = () => {
                 </section>
 
                 <div></div>
-            </div>
+            </section>
 
             <h1 className="Titulo-Skills">Skillset</h1>
-            <div className="skills">
+            <section className="skills">
                 <Skills skill="HTML"/>
                 <Skills skill="CSS"/>
                 <Skills skill="Javascript"/>
@@ -42,7 +42,7 @@ const Sobre = () => {
                 <Skills skill="Git"/>
                 <Skills skill="Github"/>
                 <Skills skill="Npm"/>
-            </div>
+            </section>
         </>
     );
 };

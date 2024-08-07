@@ -7,9 +7,9 @@ import Type from "./type";
 
 const Home = () => {
     return (
-        <div>
-            <div className="HomePage">
-                <div className="HomeText">
+        <section>
+            <section className="HomePage">
+                <section className="HomeText">
                     <h1>Olá!</h1>
                     <h1>
                         Eu sou o <b>Fabrício Costa</b>
@@ -29,12 +29,12 @@ const Home = () => {
                         Contato <CgPhone/>
                     </button>
                     </Link>
-                </div>
+                </section>
                 <Tilt>
                     <img className="Avatar" src="" alt="" />
                 </Tilt>
-            </div>
-        </div>
+            </section>
+        </section>
     )
 }
 

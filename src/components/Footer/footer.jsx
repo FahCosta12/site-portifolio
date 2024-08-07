@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <footer>
             <h4>Copyright &copy; {ano} | Todos os Direitos Reservados.</h4>
-            <div className="footerLinks">
+            <section className="footerLinks">
                 <a href="https://github.com/FahCosta12" target="_blank" rel="noreferrer">
                     <FaGithub />
                 </a>
@@ -20,7 +20,7 @@ const Footer = () => {
                 <a href="mailTo:fabricio_matheus@outlook.com" target="_blank" rel="noreferrer">
                     <GrMail />
                 </a>
-            </div>
+            </section>
         </footer>
     );
 };

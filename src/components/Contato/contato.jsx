@@ -26,7 +26,7 @@ const Contato = () => {
     };
 
     return (
-        <div className="container-contato">
+        <section className="container-contato">
             <h2>Contate-me</h2>
             {enviado ? (
                 <p className="mensagem-enviada">O Formulario foi enviado!</p>
@@ -56,7 +56,7 @@ const Contato = () => {
                     </a>
                 </form>
             )}
-        </div>
+        </section>
     );
 };
 

@@ -25,7 +25,7 @@ const Nav = () => {
 
     let showMenu = () => {
         let bar = document.getElementsByClassName("bar");
-        let ham = document.getElementsByClassName("NavbarLinks");
+        let ham = document.getElementsByClassName("NavBarLinks");
 
         if (bar.length >= 3 && ham.length > 0) {
             bar[0].classList.toggle("barOne");
@@ -39,7 +39,7 @@ const Nav = () => {
 
     let hideMenu = () => {
         let bar = document.getElementsByClassName("bar");
-        let ham = document.getElementsByClassName("NavbarLinks");
+        let ham = document.getElementsByClassName("NavBarLinks");
 
         if (bar.length >= 3 && ham.length > 0) {
             bar[0].classList.remove("barOne");
@@ -53,15 +53,20 @@ const Nav = () => {
 
     return (
         <nav className={navbarblur ? "Navbar blur" : "Navbar"}>
-            <h1 title="Reload" onClick={() => window.location.reload(true)} className="Logo">
-                FC
-            </h1>
+            <a href="/" className="Logo">
+                <h1>
+                &lt;Fabrício Costa/&gt;
+                </h1>
+
+            </a>
+
 
             <div className="Hamburger" onClick={showMenu}>
                 <span className="bar"></span>
                 <span className="bar"></span>
                 <span className="bar"></span>
             </div>
+
 
             <ul className="NavBarLinks">
                 <li onClick={hideMenu}>

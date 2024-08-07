@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Route, Routes, useLocation } from "react-router-dom";
+import { Navigate, Route, Routes, useLocation } from "react-router-dom";
 import CircleLoader from "react-spinners/CircleLoader";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import "./App.css";
@@ -8,6 +8,7 @@ import Footer from "./components/Footer/footer";
 import Home from "./components/Home/home";
 import MoveToTop from "./components/MoveToTop/moveToTop";
 import Nav from "./components/Nav/navBar";
+import Projetos from "./components/Projetos/projetos";
 import Sobre from "./components/Sobre/sobre";
 
 function App() {
@@ -44,7 +45,9 @@ function App() {
 							<Routes location={location}>
 								<Route path="/" element={<Home />} />
 								<Route path="/Sobre" element={<Sobre />} />
+								<Route path="/Projetos" element={<Projetos />} />
 								<Route path="/Contato" element={<Contato />} />
+								<Route path="*" element={<Navigate to="/" replace />} />
 							</Routes>
 						</CSSTransition>
 					</TransitionGroup>
