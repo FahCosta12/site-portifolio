@@ -16,8 +16,13 @@
 	-webkit-backdrop-filter: blur(20px);
 }
 
+.blur:not(:focus) h1 {
+	color: #fff;
+	border: 2px solid #fff;
+}
+
 .Logo {
-	padding-left: 3%;
+	padding-left: 2%;
 	cursor: pointer;
 }
 
@@ -27,6 +32,11 @@
 	color: var(--color);
 	align-items: center;
 	text-align: center;
+	border-radius: 5px;
+	height: 50px;
+	width: 250px;
+	padding-left: 15px;
+	border: 2px solid var(--color);
 }
 
 .NavBarLinks {
