@@ -1,6 +1,6 @@
+import MolduraNotebook from "../../images/moldura-notebook.png";
 import "./projeto.css";
 import ProjetoBox from "./projetoBox";
-
 const Projetos = () => {
     return (
         <section>
@@ -9,9 +9,10 @@ const Projetos = () => {
             </h1>
 
             <div className="projeto">
-                <ProjetoBox />
-                <ProjetoBox />
-                <ProjetoBox />
+                <ProjetoBox projetoFoto={MolduraNotebook} projetoNome="Em Breve"/>
+                <ProjetoBox projetoFoto={MolduraNotebook} projetoNome="Em Breve"/>
+                <ProjetoBox projetoFoto={MolduraNotebook} projetoNome="Em Breve"/>
+                <ProjetoBox projetoFoto={MolduraNotebook} projetoNome="Em Breve"/>
             </div>
         </section>
     );

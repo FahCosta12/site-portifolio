@@ -11,6 +11,7 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	margin: 25px 5%;
+	text-align: center;
 }
 
 .projetoBox {
@@ -22,6 +23,7 @@
 	font-size: 18px;
 	line-height: 22px;
 	margin: 0 25px 50px 25px;
+	justify-content: center;
 	transition: 0.5s;
 }
 
