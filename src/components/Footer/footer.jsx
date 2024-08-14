@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 import "./footer.css";
 
@@ -13,8 +13,8 @@ const Footer = () => {
                 <a href="https://github.com/FahCosta12" target="_blank" rel="noreferrer">
                     <FaGithub />
                 </a>
-                <a href="https://www.instagram.com/fabricio.costa98" target="_blank" rel="noreferrer">
-                    <FaInstagram />
+                <a href="https://www.linkedin.com/in/fabricio-costa12/" target="_blank" rel="noreferrer">
+                    <FaLinkedin />
                 </a>
 
                 <a href="mailTo:fabricio_matheus@outlook.com" target="_blank" rel="noreferrer">

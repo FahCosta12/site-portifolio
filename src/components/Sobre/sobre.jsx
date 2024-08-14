@@ -7,7 +7,7 @@ const Sobre = () => {
     return (
         <>
             <section className="Pagina-Sobre">
-                <section className="Texto-Sobre">
+                <div className="Texto-Sobre">
                     <h1 className="Titulo-Sobre">
                         Me <b>Conheça!</b>
                     </h1>
@@ -21,12 +21,12 @@ const Sobre = () => {
                         <br />
                         Além de programar, gosto de jogar video-game, praticar esportes e exercícios nas horas vagas.
                     </p>
-                    <a href="Resume.pdf" download className="resume-btn">
+                    <a href="../../assets/Resume.pdf" download target="_blank" className="resume-btn">
                         <button>
                             Download Resume <FaFileDownload/>
                         </button>
                     </a>
-                </section>
+                </div>
 
                 <div></div>
             </section>
@@ -36,12 +36,14 @@ const Sobre = () => {
                 <Skills skill="HTML"/>
                 <Skills skill="CSS"/>
                 <Skills skill="Javascript"/>
+                <Skills skill="Typescript"/>
                 <Skills skill="React"/>
-                <Skills skill="Nodejs"/>
+                <Skills skill="Tailwind"/>
                 <Skills skill="Bootstrap"/>
+                <Skills skill="Nodejs"/>
+                <Skills skill="Npm"/>
                 <Skills skill="Git"/>
                 <Skills skill="Github"/>
-                <Skills skill="Npm"/>
             </section>
         </>
     );

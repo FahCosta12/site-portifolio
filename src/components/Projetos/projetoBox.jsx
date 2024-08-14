@@ -5,10 +5,25 @@ import "./projeto.css";
 
 const ProjetoBox = ({ projetoFoto, projetoNome }) => {
     const desc = {
-        EmBreveDesc:
-            "Em Breve...",
-        Github: "https://github.com/FahCosta12/",
-        WebSite: "",
+        Projeto01Desc:
+            "Em Desenvolvimento...",
+        Projeto01Github: "https://github.com/FahCosta12/",
+        Projeto01WebSite: "",
+
+        Projeto02Desc:
+            "Em Desenvolvimento...",
+        Projeto02Github: "https://github.com/FahCosta12/",
+        Projeto02WebSite: "",
+
+        Projeto03Desc:
+            "Em Desenvolvimento...",
+        Projeto03Github: "https://github.com/FahCosta12/",
+        Projeto03WebSite: "",
+
+        Projeto04Desc:
+            "Em Desenvolvimento...",
+        Projeto04Github: "https://github.com/FahCosta12/",
+        Projeto04WebSite: "",
 
         // Adicione mais projetos aqui
         // Exemplo:

@@ -9,14 +9,16 @@ import {
     FaNpm,
     FaReact
 } from "react-icons/fa";
-import { SiCss3 } from "react-icons/si";
+import { SiCss3, SiTailwindcss, SiTypescript } from "react-icons/si";
 import "./sobre.css";
 
 const Skills = ({ skill }) => {
     const icon = {
         HTML: <FaHtml5 />,
         CSS: <SiCss3 />,
+        Tailwind: <SiTailwindcss />,
         Javascript: <DiJavascript />,
+        Typescript: <SiTypescript />,
         Bootstrap: <FaBootstrap />,
         Nodejs: <FaNode />,
         React: <FaReact />,

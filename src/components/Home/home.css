@@ -20,10 +20,12 @@
 	letter-spacing: 0.6px;
 }
 
-.Avatar {
-	height: 350px;
+.profilePhoto {
+	height: 400px;
 	width: 400px;
 	mix-blend-mode: screen;
+	border-radius: 50%;
+	object-fit: cover;
 }
 
 @media (max-width: 900px) {
@@ -36,6 +38,12 @@
 	.HomeText {
 		text-align: left;
 		display: inline-block;
+	}
+	.profilePhoto {
+		width: 300px;
+		height: 300px;
+		margin: 20px auto;
+		object-fit: cover;
 	}
 }
 
@@ -53,5 +61,11 @@
 	.TypeEffect {
 		font-weight: 500;
 		font-size: 24px;
+	}
+	.profilePhoto {
+		width: 200px;
+		height: 200px;
+		margin: 10px auto;
+		object-fit: cover;
 	}
 }
