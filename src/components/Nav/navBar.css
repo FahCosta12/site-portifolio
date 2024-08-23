@@ -18,7 +18,7 @@
 
 .blur:not(:focus) h1 {
 	color: #fff;
-	border: 2px solid #fff;
+	border: 3px solid #fff;
 }
 
 .Logo {
@@ -37,6 +37,24 @@
 	width: 250px;
 	padding-left: 15px;
 	border: 2px solid var(--color);
+	transition: 0.3s;
+}
+
+.Logo h1:hover {
+	background-color: var(--color);
+	color: #fff;
+}
+
+.Logo h1 svg {
+	margin-right: 10px;
+}
+
+.Logo h1 span {
+	color: #fff;
+}
+
+.Logo h1 span:hover {
+	color: var(--color);
 }
 
 .NavBarLinks {

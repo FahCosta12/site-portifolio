@@ -11,6 +11,7 @@ const Contato = () => {
 	});
 
 	const [enviado, setEnviado] = useState(false);
+	const [erro, setErro] = useState(false);
 
 	const handleChange = (e) => {
 		const { name, value } = e.target;
@@ -22,8 +23,18 @@ const Contato = () => {
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
+		setErro(false);
+		if (!formData.nome || !formData.email || !formData.mensagem) {
+			setErro(true);
+			return;
+		}
 		emailjs
-			.sendForm("service_df523up", "template_t0o680y", e.target, "user_df523up")
+			.sendForm(
+				"service_df523up",
+				"template_t0o680y",
+				e.target,
+				"ZLoOy-Fajgy5Ga3AI"
+			)
 			.then((response) => {
 				console.log("Mensagem enviada!", response.status, response.text);
 				setEnviado(true);
@@ -31,8 +42,6 @@ const Contato = () => {
 			.catch((err) => {
 				console.log("Erro ao enviar a mensagem!", err);
 			});
-		console.log("Mensagem enviada!");
-		setEnviado(true);
 	};
 
 	return (
@@ -77,14 +86,12 @@ const Contato = () => {
 						/>
 					</div>
 
-						<button type="submit" className="btn-enviar">
-							{" "}
-							{" "}
-							Enviar
-							<FaCheck> </FaCheck>{" "}
-						</button>
+					<button type="submit" className="btn-enviar">
+						Enviar <FaCheck />
+					</button>
 				</form>
 			)}
+			{erro && <p className="erro">Por favor, preencha todos os campos.</p>}
 		</section>
 	);
 };
