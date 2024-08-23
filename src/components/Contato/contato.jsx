@@ -23,7 +23,7 @@ const Contato = () => {
 	const handleSubmit = (e) => {
 		e.preventDefault();
 		emailjs
-			.sendForm("service_df523up", "template_df523up", e.target, "user_df523up")
+			.sendForm("service_df523up", "template_t0o680y", e.target, "user_df523up")
 			.then((response) => {
 				console.log("Mensagem enviada!", response.status, response.text);
 				setEnviado(true);
