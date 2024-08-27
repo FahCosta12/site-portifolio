@@ -21,7 +21,7 @@ const Sobre = () => {
                         <br />
                         Além de programar, gosto de jogar video-game, praticar esportes e exercícios nas horas vagas.
                     </p>
-                    <a href="https://drive.google.com/file/d/1yikdAXE7SKe7m0NRsZEvGcLEHpYHvBug/view?usp=drive_link" download="https://drive.google.com/file/d/1yikdAXE7SKe7m0NRsZEvGcLEHpYHvBug/view?usp=drive_link" target="_blank" rel="noreferrer" className="resume-btn">
+                    <a href="https://drive.google.com/file/d/15PiuVq9gJwAJfch5XbC6TNh7FrZ5uSlT/view?usp=sharing" target="_blank" rel="noreferrer" className="resume-btn">
                         <button>
                             CV Download <FaFileDownload />
                         </button>
