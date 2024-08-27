@@ -9,10 +9,10 @@ const Projetos = () => {
             </h1>
 
             <div className="projeto">
-                <ProjetoBox projetoFoto={MolduraNotebook} projetoNome="Projeto01"/>
-                <ProjetoBox projetoFoto={MolduraNotebook} projetoNome="Projeto02"/>
-                <ProjetoBox projetoFoto={MolduraNotebook} projetoNome="Projeto03"/>
-                <ProjetoBox projetoFoto={MolduraNotebook} projetoNome="Projeto04"/>
+                <ProjetoBox projetoFoto={MolduraNotebook} projetoNome="Projeto-01"/>
+                <ProjetoBox projetoFoto={MolduraNotebook} projetoNome="Projeto-02"/>
+                <ProjetoBox projetoFoto={MolduraNotebook} projetoNome="Projeto-03"/>
+                <ProjetoBox projetoFoto={MolduraNotebook} projetoNome="Projeto-04"/>
             </div>
         </section>
     );
