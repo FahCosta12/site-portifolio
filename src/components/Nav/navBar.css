@@ -24,6 +24,7 @@
 .Logo {
 	padding-left: 2%;
 	cursor: pointer;
+	text-decoration: none;
 }
 
 .Logo h1 {
@@ -81,6 +82,8 @@
 	padding: 2px 7px;
 	width: 95%;
 	letter-spacing: 0.5px;
+	text-decoration: none;
+	transition: 0.5s;
 }
 
 .NavBarLinks li a svg {

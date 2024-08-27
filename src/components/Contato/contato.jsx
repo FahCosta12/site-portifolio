@@ -87,7 +87,8 @@ const Contato = () => {
 					</div>
 
 					<button type="submit" className="btn-enviar">
-						Enviar <FaCheck />
+						{" "}
+						Enviar <FaCheck />{" "}
 					</button>
 				</form>
 			)}
