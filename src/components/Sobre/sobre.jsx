@@ -39,6 +39,7 @@ const Sobre = () => {
                 <Skills skill="Typescript" />
                 <Skills skill="React" />
                 <Skills skill="Tailwind" />
+                <Skills skill="ShadcnUI"/>
                 <Skills skill="Bootstrap" />
                 <Skills skill="Nodejs" />
                 <Skills skill="Npm" />

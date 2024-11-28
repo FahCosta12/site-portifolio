@@ -9,7 +9,7 @@ import {
     FaNpm,
     FaReact
 } from "react-icons/fa";
-import { SiCss3, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { SiCss3, SiShadcnui, SiTailwindcss, SiTypescript } from "react-icons/si";
 import "./sobre.css";
 
 const Skills = ({ skill }) => {
@@ -25,6 +25,7 @@ const Skills = ({ skill }) => {
         Git: <FaGitAlt />,
         Github: <FaGithub />,
         Npm: <FaNpm />,
+        ShadcnUI: <SiShadcnui />,
     }
     return (
         <div title={skill} className="SkillBox">
