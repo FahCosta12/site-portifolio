@@ -1,4 +1,6 @@
 import MolduraNotebook from "../../images/moldura-notebook.png";
+import ProjImgParsense from '../../images/projParkSense.png';
+import ProjImgTemperamentais from '../../images/projTemperamentais.png';
 import "./projeto.css";
 import ProjetoBox from "./projetoBox";
 const Projetos = () => {
@@ -9,10 +11,10 @@ const Projetos = () => {
             </h1>
 
             <div className="projeto">
-                <ProjetoBox projetoFoto={MolduraNotebook} projetoNome="Projeto-01"/>
-                <ProjetoBox projetoFoto={MolduraNotebook} projetoNome="Projeto-02"/>
-                <ProjetoBox projetoFoto={MolduraNotebook} projetoNome="Projeto-03"/>
-                <ProjetoBox projetoFoto={MolduraNotebook} projetoNome="Projeto-04"/>
+                <ProjetoBox projetoFoto={ProjImgParsense} projetoNome="ParkSense"/>
+                <ProjetoBox projetoFoto={ProjImgTemperamentais} projetoNome="Temperamentais"/>
+                <ProjetoBox projetoFoto={MolduraNotebook} projetoNome="Projeto03"/>
+                <ProjetoBox projetoFoto={MolduraNotebook} projetoNome="Projeto04"/>
             </div>
         </section>
     );

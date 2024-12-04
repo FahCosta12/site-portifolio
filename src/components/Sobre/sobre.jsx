@@ -12,16 +12,36 @@ const Sobre = () => {
                         Me <b>Conheça!</b>
                     </h1>
                     <p>
-                        Oi, meu nome é <b>Fabrício Costa</b> e eu sou Amparo - SP, Brasil. Sou <b>Desenvolvedor Web Front End</b> e sou formado em Análise e desenvolvimento de sistema pela Estácio <b>com ênfase em programação</b>.
-                        <br />
-                        Adoro criar projetos com designs atrativos e praticar tudo o que aprendi e continuo aprendendo, você pode conferir um pouco do meu trabalho na seção projetos.
+                        Olá, meu nome é <b>Fabrício Costa</b> e atualmente resido na cidade de Amparo - SP, Brasil, tenho disponibilidade para atuar em outras localidades.
                         <br />
                         <br />
-                        Estou <b>aberto</b> para novas colaborações ou trabalho onde posso contribuir e crescer. Sinta-se à vontade para se conectar comigo, os links estão no rodapé.
+                        Concluí em 03/2024 o curso de <b>Tecnólogo em Análise e Desenvolvimento de Sistemas</b> pela Universidade Estácio de Sá, com ênfase em <b>Programação, Desenvolvimento Web Front End</b>, me identifico muito com a área e adoro criar projetos com designs atrativos e praticar tudo o que aprendi e continuo aprendendo com os projetos em andamento.
                         <br />
-                        Além de programar, gosto de jogar video-game, praticar esportes e exercícios nas horas vagas.
+                        <br />
+                        Atualmente estou desenvolvendo alguns trabalhos para colocar em prática e me desenvolver ainda mais na área.
+                        <br />
+                        <br />
+                        Para vizualizar um pouco do meu trabalho clique no Menu Projetos.
+                        <br />
+                        <br />
+                        Sendo recém formado estou aberto à novas oportunidades de trabalho onde eu possa contribuir e aprender sempre.
+                        <br />
+                        <br />
+                        Um pouco mais sobre meu perfil é que além de programar, gosto de práticar esportes como futebol e fazer academia.
+                        <br />
+                        <br />
+                        Sinta-se à vontade para conectar comigo, os links estão no rodapé.
+                        <br />
+                        <br />
+                        Agradeço sua atenção.
+                        <br />
+                        <br />
+                        Abraço.
+                        <br />
+                        <br />
+                        Fabrício Costa.
                     </p>
-                    <a href="https://drive.google.com/file/d/15PiuVq9gJwAJfch5XbC6TNh7FrZ5uSlT/view?usp=sharing" target="_blank" rel="noreferrer" className="resume-btn">
+                    <a href="https://drive.google.com/file/d/1IMm1BqbFbsogG3CswMKwVZzifQq_MS8Z/view?usp=sharing" target="_blank" rel="noreferrer" className="resume-btn">
                         <button>
                             CV Download <FaFileDownload />
                         </button>
@@ -33,16 +53,16 @@ const Sobre = () => {
 
             <h1 className="Titulo-Skills">Skillset</h1>
             <section className="skills">
-                <Skills skill="HTML" />
-                <Skills skill="CSS" />
+                <Skills skill="HTML5" />
+                <Skills skill="CSS3" />
                 <Skills skill="Javascript" />
                 <Skills skill="Typescript" />
                 <Skills skill="React" />
                 <Skills skill="Tailwind" />
                 <Skills skill="ShadcnUI"/>
-                <Skills skill="Bootstrap" />
                 <Skills skill="Nodejs" />
                 <Skills skill="Npm" />
+                <Skills skill="Yarn" />
                 <Skills skill="Git" />
                 <Skills skill="Github" />
             </section>
