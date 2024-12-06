@@ -21,7 +21,7 @@ const Sobre = () => {
                         Atualmente estou desenvolvendo alguns trabalhos para colocar em prática e me desenvolver ainda mais na área.
                         <br />
                         <br />
-                        Para vizualizar um pouco do meu trabalho clique no Menu Projetos.
+                        Para visualizar um pouco do meu trabalho clique no Menu Projetos.
                         <br />
                         <br />
                         Sendo recém formado estou aberto à novas oportunidades de trabalho onde eu possa contribuir e aprender sempre.
