@@ -41,7 +41,7 @@ const Sobre = () => {
                         <br />
                         Fabrício Costa.
                     </p>
-                    <a href="https://drive.google.com/file/d/1IMm1BqbFbsogG3CswMKwVZzifQq_MS8Z/view?usp=sharing" target="_blank" rel="noreferrer" className="resume-btn">
+                    <a href="https://drive.google.com/file/d/1WNmZpaunheuS2aEXcPU7v09tKNU6SmEd/view?usp=sharing" target="_blank" rel="noreferrer" className="resume-btn">
                         <button>
                             CV Download <FaFileDownload />
                         </button>
