@@ -28,27 +28,25 @@ const ProjetoBox = ({ projetoFoto, projetoNome }) => {
 				<br />
 				<h3>{projetoNome}</h3>
 				<br />
-				<p>{desc[projetoNome + "Desc"]}</p>
+				<div className="projetoDesc">
+					<p>{desc[projetoNome + "Desc"]}</p>
+				</div>
 				<br />
-					<a
-						href={desc[projetoNome + "Github"]}
-						target="_blank"
-						rel="noreferrer"
-					>
-						<button>
-							<FaGithub /> GitHub
-						</button>
-					</a>
+				<a href={desc[projetoNome + "Github"]} target="_blank" rel="noreferrer">
+					<button>
+						<FaGithub /> GitHub
+					</button>
+				</a>
 
-					<a
-						href={desc[projetoNome + "Website"]}
-						target="_blank"
-						rel="noreferrer"
-					>
-						<button>
-							<CgFileDocument /> Site
-						</button>
-					</a>
+				<a
+					href={desc[projetoNome + "Website"]}
+					target="_blank"
+					rel="noreferrer"
+				>
+					<button>
+						<CgFileDocument /> Site
+					</button>
+				</a>
 			</div>
 		</section>
 	);
