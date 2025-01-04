@@ -43,3 +43,27 @@
 	width: 100%;
 	margin: 0px 0px;
 }
+
+@media (max-width: 360px) and (max-height: 640px) {
+	.projetoDesc {
+		height: 60%;
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+@media (max-width: 360px) and (max-height: 740px) {
+	.projetoDesc {
+		height: 700px;
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+@media (min-width: 414px) and (max-width: 414px) and (max-height: 736px) {
+	.projetoDesc {
+		height: 700px;
+		display: flex;
+		justify-content: space-between;
+	}
+}
